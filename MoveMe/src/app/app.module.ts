@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {MatButtonModule, MatCheckboxModule, MatCheckbox,MatFormFieldModule,MatDatepickerModule,MatInputModule,MatNativeDateModule,MatMenuModule} from '@angular/material';
+import {MatButtonModule, MatCheckboxModule, MatCheckbox,MatFormFieldModule,MatDatepickerModule,MatInputModule,MatNativeDateModule,MatMenuModule, MatAutocompleteModule, MatSlideToggleModule, MatOptionModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
@@ -20,7 +20,11 @@ import { AppComponent } from './app.component';
     MatNativeDateModule,
     MatInputModule,
     MatMenuModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatAutocompleteModule,
+    MatSlideToggleModule,
+    MatInputModule,
+    MatOptionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
